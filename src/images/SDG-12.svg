@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 720">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf8b2e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path id="goal_background" data-name="goal background" class="cls-1" d="M-1.1-1.1h722.2v722.2H-1.1V-1.1Z"/>
+  <g id="ENG_text_graphics" data-name="ENG text graphics">
+    <path class="cls-1" d="M0,0"/>
+  </g>
+  <image width="962" height="822" transform="translate(24 43.9) scale(.7)" xlink:href="SDG-12-1.png"/>
+  <rect class="cls-1" y="32.4" width="35" height="569"/>
+  <rect class="cls-1" x="333" y="-297.5" width="42" height="682.8" transform="translate(310.1 397.9) rotate(-90)"/>
+  <rect class="cls-1" x="44.1" y="85.6" width="152" height="163.7" transform="translate(-47.3 287.6) rotate(-90)"/>
+  <image width="448" height="994" transform="translate(69.6 83.3) scale(.2)" xlink:href="SDG-12-2.png"/>
+</svg>
