@@ -8,6 +8,7 @@ import {
 import { Button } from '@/components/ui/button'
 import { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
+import Link from 'next/link'
 
 export function Hero() {
   const titleRef = useRef(null)
@@ -42,12 +43,9 @@ export function Hero() {
   return (
     <div className="relative">
       <div className="absolute w-full h-screen z-50 justify-center items-center flex flex-col space-y-14">
-        <h1 ref={titleRef} className="text-white font-bold uppercase text-9xl">
-          IIC
-        </h1>
         <h2
           ref={descriptionRef}
-          className="text-white font-bold uppercase md:text-5xl text-2xl"
+          className="text-white font-bold uppercase md:text-5xl text-2xl text-center px-4"
         >
           Instituto Identidade Cultural
         </h2>
@@ -60,9 +58,11 @@ export function Hero() {
           >
             Saiba Mais
           </Button>
-          <Button ref={buttonRef2} size={'lg'} variant={'secondary'}>
-            Contato
-          </Button>
+          <Link href="#contatos">
+            <Button ref={buttonRef2} size={'lg'} variant={'secondary'}>
+              Contato
+            </Button>
+          </Link>
         </div>
       </div>
       <Carousel

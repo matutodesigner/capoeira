@@ -8,6 +8,7 @@ import parceiro5 from '@/images/parceiros/6SgOU99tvsmJfuXSc2Cgh1wH7ooKac7eRT6kAO
 import parceiro6 from '@/images/parceiros/images.png'
 import parceiro7 from '@/images/parceiros/images.jpeg'
 import parceiro8 from '@/images/parceiros/277799482_687511829335516_8690393074434056965_n.jpg'
+import parceiro9 from '@/images/parceiros/arqbe.png'
 
 const ParceirosData = [
   { link: 'http://culturaviva.gov.br/agente/27981/', imgSrc: parceiro1 },
@@ -32,6 +33,10 @@ const ParceirosData = [
   {
     link: 'https://www.instagram.com/icstudioa/',
     imgSrc: parceiro8,
+  },
+  {
+    link: 'https://www.instagram.com/arqbe.2023/',
+    imgSrc: parceiro9,
   },
 ]
 

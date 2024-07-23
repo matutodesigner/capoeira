@@ -1,9 +1,9 @@
-import { Facebook, Youtube } from 'lucide-react'
+import { Facebook, Instagram, Youtube } from 'lucide-react'
 import Link from 'next/link'
 
 export function Transparencia() {
   return (
-    <div className="md:py-36 py-28 container">
+    <div id="contatos" className="md:py-36 py-28 container">
       <div className="grid md:grid-cols-3 text-center md:text-left gap-12">
         <div>
           <h5 className="text-xl mb-2 font-black text-blue-600">
@@ -106,6 +106,12 @@ export function Transparencia() {
               target="_blank"
             >
               <Facebook />
+            </Link>
+            <Link
+              href="https://www.instagram.com/identidadecultural_"
+              target="_blank"
+            >
+              <Instagram />
             </Link>
           </div>
         </div>

@@ -21,7 +21,7 @@ const acoes = [
   { image: Capoeira, title: 'Capoeria' },
   { image: Maculele, title: 'Maculelê' },
   { image: SambaDeRoda, title: 'Samba de Roda' },
-  { image: JogoSudeste, title: 'Jogo do Sudeste' },
+  { image: JogoSudeste, title: 'Jongo do Sudeste' },
   { image: MineiroPau, title: 'Mineiro Pau' },
   { image: Musicalidade, title: 'Musicalidade' },
   { image: Cultural, title: 'Patrimônio Cultural' },
