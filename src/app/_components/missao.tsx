@@ -51,7 +51,7 @@ export function Missao() {
   }, [])
 
   return (
-    <div className="py-52 grid-cols-3 grid gap-16 text-center container">
+    <div className="md:py-52 py-28 md:grid-cols-3 grid gap-16 text-center container">
       <div ref={missaoRef} className="card border p-8 rounded-lg">
         <Target className="mx-auto w-28 h-28 mb-6 text-blue-600" />
         <h1 className="text-4xl font-bold mb-8">Missão</h1>

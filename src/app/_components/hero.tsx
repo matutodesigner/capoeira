@@ -47,7 +47,7 @@ export function Hero() {
         </h1>
         <h2
           ref={descriptionRef}
-          className="text-white font-bold uppercase text-5xl"
+          className="text-white font-bold uppercase md:text-5xl text-2xl"
         >
           Instituto Identidade Cultural
         </h2>

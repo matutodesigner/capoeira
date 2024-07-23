@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Certificados() {
   return (
-    <div className="py-56 bg-blue-600">
+    <div className="md:py-52 py-28 bg-blue-600">
       <div className="container">
         <h3 className="text-5xl text-white font-bold uppercase text-center mb-12">
           Certificados

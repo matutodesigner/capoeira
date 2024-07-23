@@ -1,10 +1,10 @@
 'use client'
 import Image from 'next/image'
 import logoOds from '@/images/ODS.png'
-import svg1 from '@/images/SDG-3.svg'
-import svg2 from '@/images/SDG-5.svg'
-import svg3 from '@/images/SDG-10.svg'
-import svg4 from '@/images/SDG-12.svg'
+import svg1 from '@/images/img1.png'
+import svg2 from '@/images/img2.png'
+import svg3 from '@/images/img3.png'
+import svg4 from '@/images/img4.png'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
@@ -48,19 +48,20 @@ export function Ods() {
   }, [])
 
   return (
-    <div className="bg-muted py-52">
+    <div className="bg-muted md:py-52 py-28">
       <div className="container">
         <Image
           className="mx-auto"
           src={logoOds}
           alt="Objetivos de Desenvolvimento Sustentável"
         />
-        <div className="grid grid-cols-4 mt-12 gap-28">
+        <div className="grid md:grid-cols-4 grid-cols-2 mt-12 md:gap-28 gap-8 justify-between">
           <Image
             ref={(el) => {
               imageRefs.current[0] = el!
             }}
             src={svg1}
+            width={150}
             alt=""
           />
           <Image
@@ -68,6 +69,7 @@ export function Ods() {
               imageRefs.current[1] = el!
             }}
             src={svg2}
+            width={150}
             alt=""
           />
           <Image
@@ -75,6 +77,7 @@ export function Ods() {
               imageRefs.current[2] = el!
             }}
             src={svg3}
+            width={150}
             alt=""
           />
           <Image
@@ -82,6 +85,7 @@ export function Ods() {
               imageRefs.current[3] = el!
             }}
             src={svg4}
+            width={150}
             alt=""
           />
         </div>

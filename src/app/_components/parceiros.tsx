@@ -37,9 +37,9 @@ const ParceirosData = [
 
 export function Parceiros() {
   return (
-    <div className="container my-56">
+    <div className="container md:py-52 py-28">
       <h1 className="text-5xl font-bold text-center mb-18">Parceiros</h1>
-      <div className="grid grid-cols-4 gap-16 items-center">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-16 items-center">
         {ParceirosData.map((parceiro, index) => (
           <Link key={index} href={parceiro.link}>
             <Image

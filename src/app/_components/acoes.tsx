@@ -34,7 +34,7 @@ export function Acoes() {
   const acoesRefs = useRef<HTMLDivElement[]>([])
 
   useEffect(() => {
-    acoesRefs.current.forEach((elem, index) => {
+    acoesRefs.current.forEach((elem) => {
       gsap.fromTo(
         elem,
         { opacity: 0, y: 100, scale: 0.8 },
@@ -50,15 +50,14 @@ export function Acoes() {
             end: 'bottom 20%',
             toggleActions: 'play none none reverse',
           },
-          delay: index * 0.1,
         },
       )
     })
   }, [])
 
   return (
-    <div className="bg-muted py-56">
-      <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+    <div className="bg-muted md:py-52 py-28">
+      <div className="container grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 md:gap-16 gap-4">
         {acoes.map((acao, index) => (
           <div
             key={index}

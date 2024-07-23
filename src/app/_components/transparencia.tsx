@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export function Transparencia() {
   return (
-    <div className="my-36 container">
-      <div className="grid grid-cols-3 gap-12">
+    <div className="md:py-36 py-28 container">
+      <div className="grid md:grid-cols-3 text-center md:text-left gap-12">
         <div>
           <h5 className="text-xl mb-2 font-black text-blue-600">
             INSTITUTO IDENTIDADE CULTURAL
@@ -24,7 +24,7 @@ export function Transparencia() {
           <h3 className="font-bold text-blue-600 mb-8 uppercase">
             Transparencia
           </h3>
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col md:space-y-4 space-y-2">
             <Link
               href="https://drive.google.com/file/d/1W2K5-Zgli03x9Gt3Mr7_3paVMy4K_U96/view?usp=sharing"
               target="_blank"
@@ -94,7 +94,7 @@ export function Transparencia() {
           <h3 className="font-bold text-blue-600 my-8 uppercase">
             Redes Sociais
           </h3>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 justify-center md:justify-start">
             <Link
               href="https://www.youtube.com/@IdentidadeCulturalTV/featured"
               target="_blank"
