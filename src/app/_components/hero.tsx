@@ -50,6 +50,7 @@ export function Hero() {
           Instituto Identidade Cultural
         </h2>
         <div className="space-x-6">
+          <Link href="h">
           <Button
             ref={buttonRef1}
             size={'lg'}
@@ -58,6 +59,7 @@ export function Hero() {
           >
             Saiba Mais
           </Button>
+          </Link>
           <Link href="#contatos">
             <Button ref={buttonRef2} size={'lg'} variant={'secondary'}>
               Contato
